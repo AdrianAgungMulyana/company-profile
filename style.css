@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.car-icon {
+  width: 100px;
+  height: auto;
+  margin-right: 350px;
+}
+
+header h1 {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Section */
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 5px;
+}
+
+.section p,
+.section ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav a {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+}
